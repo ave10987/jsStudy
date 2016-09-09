@@ -2,12 +2,24 @@
 <html>
 <head>
 	<title>ave10987</title>
+	<link rel="stylesheet" href="node_modules/mocha/mocha.css">
 	<script type="text/javascript" src="./js/stack.js"></script>
 	<script type="text/javascript" src="./js/queue.js"></script>
 	<script type="text/javascript" src="./js/singly_linked_list.js"></script>
 	<script type="text/javascript" src="./js/doubly_linked_list.js"></script>
+	<script type="text/javascript" src="./js/tree.js"></script>
+	<script type="text/javascript" src="./node_modules/mocha/mocha.js"></script>
+	<script type="text/javascript" src="./node_modules/chai/chai.js"></script>
+	
+	<script>
+		mocha.setup( "bdd" );
+	</script>
 </head>
 <body>
-
+	<div id="mocha"></div>
+	<script type="text/javascript" src="./test.js"></script>
+	<script>
+		mocha.run();
+	</script>
 </body>
 </html>

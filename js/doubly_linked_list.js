@@ -86,13 +86,3 @@ DoublyList.prototype.remove = function( position ) {
 
 	return "success";
 };
-
-var d = new DoublyList();
-
-d.add( "test1" );
-d.add( "test2" );
-
-console.log( d );
-
-console.log( d.remove( 1 ) );
-console.log( d );
